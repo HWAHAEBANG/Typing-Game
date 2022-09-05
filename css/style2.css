@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  background-color: #3b5999;
+  color: #fff;
+  padding: 10px;
+  width: 300px;
+  text-align: center;  /* 체크 */
+}
+
+.word-display {
+  margin-top : 42px;
+  font-size: 70px;
+  color: #3b5999;
+}
+
+.word-input-box {
+  margin-top : 20px;
+}
+
+.word-input {
+  padding : 5px;
+  width: 250px;
+}
+
+.game-info {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+}
+
+.time, .score {
+  font-size: 30px;
+}
+
+.button {
+  margin-top: 30px;
+  width: 200px;
+  height: 30px;
+  border: none;
+  background-color: #3b5999;
+  color: #fff;
+  cursor: pointer;
+}
+
+.loading {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
